@@ -1,5 +1,5 @@
 const apiKey = "0a31bb684f8742a38b9142131231411";
-const apiURL = "http://api.weatherapi.com/v1/forecast.json?&days=7&aqi=yes&q=";
+const apiURL = "https://api.weatherapi.com/v1/forecast.json?&days=7&aqi=yes&q=";
 
 const searchBox = document.querySelector(".search-input");
 const searchBtn = document.querySelector(".search-btn");
