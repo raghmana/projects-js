@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+}
+.weather-box {
+    width: 500px;
+    background-color: #FFF2D8;
+    text-align: center;
+    padding: 50px;
+    margin-top: 10%;
+    border-radius: 25px;
+    box-shadow: 0 15px 25px 0 rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.weather-box h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #113946;
+}
